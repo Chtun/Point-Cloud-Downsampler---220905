@@ -68,8 +68,6 @@ def main():
 
 
 
-
-
 # Output a csv table
 def OutputCSV(CSV_Table, name):
     with open(name + '.csv', 'w', newline='') as csvfile:
